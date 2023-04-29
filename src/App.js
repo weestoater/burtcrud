@@ -17,6 +17,7 @@ function App() {
             <p>We have a simple ReactJS app, now we need to give it a '<code>back-end</code>' for handling the queries to and from the <code>mongoDB</code>.</p>
           </div>
         </div>
+        <div className="row">ghghghghg</div>
       </main>
     </div>
   );
