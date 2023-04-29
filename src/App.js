@@ -1,6 +1,8 @@
 import logo from './logo.svg';
 import './App.scss';
 
+import { FormPage } from './components/form';
+
 function App() {
   return (
     <div className="App">
@@ -17,7 +19,13 @@ function App() {
             <p>We have a simple ReactJS app, now we need to give it a '<code>back-end</code>' for handling the queries to and from the <code>mongoDB</code>.</p>
           </div>
         </div>
-        <div className="row">ghghghghg</div>
+        <div className="row">
+          <div className="col-sm-4">
+            <FormPage />  
+          </div> 
+          <div className="col-sm-4">b</div>
+          <div className="col-sm-4">c</div>
+        </div>
       </main>
     </div>
   );
